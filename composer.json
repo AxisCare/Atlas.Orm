@@ -1,5 +1,5 @@
 {
-    "name": "atlas/orm",
+    "name": "axiscare-atlas/orm",
     "type": "library",
     "description": "A data mapper ORM for your persistence model (not your domain model).",
     "keywords": [ "sql", "data", "mapper", "mapping", "orm" ],
