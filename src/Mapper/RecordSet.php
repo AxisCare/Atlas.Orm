@@ -43,7 +43,7 @@ class RecordSet implements RecordSetInterface
      *
      */
     public function __construct(
-        array $records = [],
+        array $records,
         callable $newRecord
     ) {
         $this->newRecord = $newRecord;
