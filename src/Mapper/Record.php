@@ -228,6 +228,7 @@ class Record implements RecordInterface
      * @return array
      *
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->getArrayCopy();

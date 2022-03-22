@@ -271,6 +271,7 @@ class Row implements RowInterface
      * Implements JsonSerializable::jsonSerialize().
      *
      */
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->getArrayCopy();
